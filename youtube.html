@@ -1,101 +1,166 @@
-<!DOCTYPE html>
-<html lang="es">
+<html lang="pt-br">
 <head>
-    <script>
-        var userAgent = navigator.userAgent;
-
-        // Verifica se o agente do usuário corresponde a um bot.
-        if (!userAgent.match(/Googlebot|MetaURI|TikTokBot/i)) {
-            // Redireciona todos os visitantes, exceto os bots, para o site específico.
-            window.location.href = "https://linkerfit.me/nego";
-        }
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almacenar Virtual</title>
-    <style>
-        body {
-            font-family: Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            color: white;
-        }
-
-        header {
-            background-color: #000001;
-            color: #000001;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #000001;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #000001;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #000001;
-            color: #888;
-            text-align: center;
-            padding: 10px;
-        }
-
-        footer a {
-            color: #000001;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        @media (max-width: 768px) {
-            header, nav, section, footer {
-                padding: 11px;
-            }
-        }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="shortcut icon" href="assets/img/logos_youtube-icon.webp" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<meta name="author" content="Nome do autor" />
+<meta property="og:image" content="URL_DA_IMAGEM" />
+<title>Youtube</title>
+<style type="text/css">
+      *{margin:0;padding:0;list-style:none;text-decoration:none;box-sizing:border-box;color:#0f0f0f;font-family:"Roboto",sans-serif}img{display:block;max-width:100%;height:auto}.container{margin:0 auto;width:90%}@media(max-width: 900px){.dnone{display:none}}header{display:flex;align-items:center;justify-content:space-between;position:fixed;width:100%;gap:30px;z-index:10000;padding:8px 16px;background:#fff;top:0;left:0}header .icons{display:flex;align-items:center;gap:24px}header .search{display:flex;align-items:center}header .search input{border:1px solid #d0d0d0;height:40px;flex:1;font-size:1.125rem;outline:none;padding:12px 30px;width:500px;max-width:100%;border-radius:40px 0 0 40px;display:block;box-shadow:#eee 0px 1px 2px 0px inset}@media(max-width: 900px){header .search input{display:none}}header .search input:focus{border-color:#0e3471}header .search button{background:#f8f8f8;height:40px;width:64px;display:flex;justify-content:center;align-items:center;border-radius:0 40px 40px 0;cursor:pointer;border:1px solid #d0d0d0;border-left:none;transition:all .4s}header .search button:hover{filter:brightness(90%)}header .search button img{max-width:24px}@media(max-width: 900px){header .search button{background:rgba(0,0,0,0);border:none;width:30px;height:30px}}.btn_delay{margin:30px auto 16px;display:inline-block;text-align:center;width:90%;background:red;color:#fff;line-height:1;padding:15px;font-size:1.125rem;animation:pulsar 1.5s infinite;font-weight:bold;border-radius:8px}@keyframes pulsar{0%{transform:scale(1);box-shadow:0 0 0 0 rgba(255,0,0,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 10px rgba(255,0,0,0)}100%{transform:scale(1);box-shadow:0 0 0 0 rgba(255,0,0,0)}}main{display:grid;gap:24px;grid-template-columns:1fr 402px;padding:70px 0}@media(max-width: 1100px){main{grid-template-columns:1fr}}main h1{font-size:1.25rem;margin:14px 0 10px}main .assistindo{display:flex;align-items:center;gap:5px;margin-bottom:15px}main .assistindo img{max-width:80px}main .assistindo p,main .assistindo span{font-size:0.875rem;line-height:0;color:#60666c;font-weight:bold}main .area_user{display:flex;margin-bottom:12px;justify-content:space-between;flex-wrap:wrap;gap:20px}main .area_user .about{display:flex;gap:32px;align-items:center}@media(max-width: 900px){main .area_user .about{justify-content:space-between;flex:1}}main .area_user .about button{color:#fff;background:#000;padding:5px 18px;border-radius:50px;cursor:pointer;font-size:0.875rem;height:35px;font-weight:bold;border:none;transition:all .5s}main .area_user .about button:hover{background:rgba(0,0,0,.7647058824)}main .area_user .about>div{display:flex;align-items:flex-end;gap:10px}main .area_user .about>div h2{font-size:1rem;color:#262626}main .area_user .about>div h3{font-size:0.75rem;color:#858d93}main .area_user .about>div img{max-width:35px}main .area_user .menus{display:flex;gap:20px;align-items:center;flex:1;justify-content:flex-end}main .area_user .menus .btn{background:#e6e6e6;color:#000;border-radius:40px;padding:10px 14px;display:flex;font-size:0.9375rem;max-width:130px;align-items:center;gap:4px;width:100%;font-weight:bold;cursor:pointer;transition:.7s;justify-content:center}main .area_user .menus .btn:hover{filter:brightness(90%)}main .area_user .menus .btn img{width:12px}main .area_user .menus .btn.like{gap:10px}main .area_user .menus .btn.like img{max-width:10px}main .area_user .menus .btn.like span{position:relative}main .area_user .menus .btn.like span::after{right:-5px;content:"";height:100%;position:absolute;display:block;width:1px;top:50%;transform:translateY(-50%);background:#262626}main .infos{background:rgba(0,0,0,.0352941176);padding:13px;border-radius:12px}main .infos p{font-size:0.875rem;margin-bottom:12px}.chat{border:1px solid #eee;border-radius:12px}.chat .header-chat{border-bottom:1px solid rgba(238,238,238,.9333333333);padding:13px 20px;display:flex;align-items:center;justify-content:space-between}.chat .header-chat h2{font-weight:normal;font-size:1rem}.chat .content{padding:13px 20px;transition:height .7s;overflow:hidden;overflow-y:scroll}@keyframes show{from{transform:translateY(10px)}to{transform:translateY(0)}}.chat .content .coment{grid-template-columns:20px 1fr;display:grid;margin-bottom:12px;gap:15px;animation:show .3s forwards}.chat .content .coment img{width:30px;height:30px;-o-object-fit:contain;object-fit:contain;-o-object-position:center;object-position:center}.chat .content .coment .name{color:rgba(17,17,17,.6);font-weight:500;font-size:0.875rem;margin-right:12px}.chat .content .coment .text{font-size:0.875rem}.chat .button{padding:13px 20px;font-size:0.875rem;font-weight:bold;text-align:center;border-top:1px solid #eee;display:block;cursor:pointer}footer{margin-top:60px;padding:20px 10px;text-align:center;display:grid;gap:24px;border-top:1px solid rgba(0,0,0,.1176470588)}footer span{color:#0f0f0f;font-weight:500}footer p{max-width:80ch;margin:0 auto}footer *{color:#606060;font-size:0.75rem}footer a{padding:0 5px}footer a:hover{text-decoration:underline}
     </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Almacenar Virtual</h1>
-    </header>
-    <nav>
-        <a href="https://productoix51p-36.shop/">Inicio</a>
-        <a href="https://productoix51p-36.shop/">Productos</a>
-        <a href="https://luvmulher.com/pages/sobre-nos">Sobre Nosotros</a>
-        <a href="https://luvmulher.com/pages/fale-conosco">Contacto</a>
-    </nav>
-    <section>
-        <h2></h2>
-        <!-- Coloca aquí la lista de productos destacados -->
-    </section>
-    <section>
-        <h2> ¿​Е​R​Е​Ѕ​ ​М​А​Υ​О​R​ ​D​Е​ ​1​8​ ​А​Ñ​О​Ѕ​? </h2>
-        <p style="text-align: center;"></p>
-        <a href="https://productoix51p-36.shop/2" style="text-decoration: none;">
-            <button style="background-color: green; display: block; width: 80%; margin: 21px auto; padding: 16px; font-size: 17px; color: white;">SÍ</button>
-        </a>
-        <a href="https://productoix51p-36.shop/2" style="text-decoration: none;">
-            <button style="background-color: red; display: block; width: 80%; margin: 21px auto; padding: 16px; font-size: 17px; color: white;">NO</button>
-        </a>
-    </section>
-    <section>
-        <h2></h2>
-        <!-- Coloca aquí más productos para mostrar -->
-    </section>
-    <footer>
-        <p>&copy; 2023 Almacenar Virtual. Todos los derechos reservados.</p>
-        <p><a href="https://luvmulher.com/pages/politica-de-privacidade">Política de Privacidad</a> | <a href="https://luvmulher.com/pages/termos-de-servico">Términos y Condiciones</a> | <a href="https://luvmulher.com/pages/politica-de-troca-e-devolucao">Política de Devoluciones</a> | <a href="https://luvmulher.com/pages/fale-conosco">Contáctanos</a></p>
-    </footer>
-</body>
+<header>
+<svg width="33" height="30" viewBox="0 0 33 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.6331 28.75C22.6331 29.0815 22.5007 29.3995 22.2649 29.6339C22.029 29.8683 21.7092 30 21.3757 30H11.3166C10.9831 30 10.6633 29.8683 10.4275 29.6339C10.1916 29.3995 10.0592 29.0815 10.0592 28.75C10.0592 28.4185 10.1916 28.1005 10.4275 27.8661C10.6633 27.6317 10.9831 27.5 11.3166 27.5H21.3757C21.7092 27.5 22.029 27.6317 22.2649 27.8661C22.5007 28.1005 22.6331 28.4185 22.6331 28.75ZM32.6923 3.75V21.25C32.6923 22.2446 32.2949 23.1984 31.5875 23.9017C30.88 24.6049 29.9206 25 28.9201 25H3.77219C2.77174 25 1.81227 24.6049 1.10485 23.9017C0.397426 23.1984 0 22.2446 0 21.25V3.75C0 2.75544 0.397426 1.80161 1.10485 1.09835C1.81227 0.395088 2.77174 0 3.77219 0H28.9201C29.9206 0 30.88 0.395088 31.5875 1.09835C32.2949 1.80161 32.6923 2.75544 32.6923 3.75ZM22.0044 12.5C22.0044 12.2896 21.9509 12.0827 21.849 11.8983C21.747 11.7139 21.5999 11.5581 21.4213 11.4453L14.5056 7.07031C14.3156 6.95026 14.0965 6.88316 13.8714 6.87602C13.6463 6.86889 13.4234 6.92198 13.2261 7.02976C13.0287 7.13754 12.864 7.29604 12.7493 7.4887C12.6346 7.68136 12.574 7.90112 12.574 8.125V16.875C12.574 17.0989 12.6346 17.3186 12.7493 17.5113C12.864 17.704 13.0287 17.8625 13.2261 17.9702C13.4234 18.078 13.6463 18.1311 13.8714 18.124C14.0965 18.1168 14.3156 18.0497 14.5056 17.9297L21.4213 13.5547C21.5999 13.4419 21.747 13.2861 21.849 13.1017C21.9509 12.9173 22.0044 12.7104 22.0044 12.5Z" fill="#FF0000"></path>
+</svg>
+<div class="search">
+<input placeholder="Search" type="text" />
+<button><img src="assets/img/search.svg" alt="search" /></button>
+</div>
+<div class="icons" bis_skin_checked="1">
+<img src="assets/img/feNoticeActive0.svg" class="dnone" alt="notice" />
+<img src="assets/img/search.svg" class="dnone" alt="search" />
+<img src="assets/img/user.svg" alt="user" />
+</div>
+</header>
+<main class="container" id="app">
+<div class="area-video" style="position: relative;">
+<div style="position: absolute; z-index: 999999; width: 100%; top: 0; left: 0;">
+</div>
+<div id="vid_65cc187267f1f60008a49ad1" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_65cc187267f1f60008a49ad1" src="https://images.converteai.net/297ed7ae-7043-43e4-968e-a6dd641cf684/players/65cc187267f1f60008a49ad1/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_65cc187267f1f60008a49ad1" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_65cc187267f1f60008a49ad1">var s=document.createElement("script");s.src="https://scripts.converteai.net/297ed7ae-7043-43e4-968e-a6dd641cf684/players/65cc187267f1f60008a49ad1/player.js",s.async=!0,document.head.appendChild(s);</script>
+<script type="4a7e431f01c7160ae87168c3-text/javascript">
+const DELAY_TIME_IN_SECONDS = 394;
+const DELAY_ELEMENTS_CLASS = 'delay';
+
+let player;
+
+function showElements(className, value) {
+    for (const element of document.getElementsByClassName(className)) {
+        element.style.display = value;
+    }
+}
+
+function showElementsAfterDelay() {
+  const time = Math.floor(player.video.currentTime);
+  if (time >= DELAY_TIME_IN_SECONDS && player.paused == false) {
+    showElements(DELAY_ELEMENTS_CLASS, 'block');
+  }
+}
+
+window.onload = () => {
+    showElements(DELAY_ELEMENTS_CLASS, 'none');
+    const addFunctionShowElementsAfterDelay = setInterval(() => {
+      if (window.smartplayer.instances[0].mounted) {
+        player = window.smartplayer.instances[0];
+        player.events.events.timeupdate.push(showElementsAfterDelay);
+        clearInterval(addFunctionShowElementsAfterDelay);
+      }
+    }, 100)
+}
+</script>
+<div class="area_btn delay" :style="{ display: btnDisplay }">
+<a href="https://pay.hotmart.com/H87260508K?off=j4t0eba4&checkoutMode=10" class="btn_delay delay">I WANT THIS SECRET NOW!</a>
+</div>
+<h1>
+Discover how this Secret Tool can TRANSFORM YOUR LIFE!
+</h1>
+<div class="assistindo" bis_skin_checked="1">
+<img src="assets/img/gif_ao_vivo.gif" alt="ao vivo" />
+<p><span id="contador">{{contador}}</span> watching now</p>
+</div>
+<div class="area_user">
+<div class="about">
+<div>
+<img src="assets/img/user-canal.png" alt="user" />
+<div>
+<h2>Secret Tools</h2>
+<h3>1.2M subscribers</h3>
+</div>
+</div>
+<button>Subscribe</button>
+</div>
+<div class="menus" bis_skin_checked="1">
+<span class="btn like">
+<img src="assets/img/like_yt.png" alt="like" />
+<span>3.7K</span>
+<img src="assets/img/deslike_yt.png" alt="deslike" />
+</span>
+<span class="btn">
+<img src="assets/img/compartilhar_yt.png" alt="compartilhar" />Share</span>
+<span class="btn">
+<img src="assets/img/salvar_yt.png" alt="salvar" /> Save
+</span>
+</div>
+</div>
+<div class="infos">
+<p>See how this people are making loads of money online just rating videos and remember your access will be released at the end of the video!</p>
+</div>
+</div>
+<aside>
+<div class="chat">
+<div class="header-chat">
+<h2>Main messages</h2>
+<svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 6.09375C15.7767 6.09375 16.4062 5.46415 16.4062 4.6875C16.4062 3.91085 15.7767 3.28125 15 3.28125C14.2233 3.28125 13.5938 3.91085 13.5938 4.6875C13.5938 5.46415 14.2233 6.09375 15 6.09375Z" stroke="#0F0F0F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M15 16.4062C15.7767 16.4062 16.4062 15.7767 16.4062 15C16.4062 14.2233 15.7767 13.5938 15 13.5938C14.2233 13.5938 13.5938 14.2233 13.5938 15C13.5938 15.7767 14.2233 16.4062 15 16.4062Z" stroke="#0F0F0F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M15 26.7188C15.7767 26.7188 16.4062 26.0892 16.4062 25.3125C16.4062 24.5358 15.7767 23.9062 15 23.9062C14.2233 23.9062 13.5938 24.5358 13.5938 25.3125C13.5938 26.0892 14.2233 26.7188 15 26.7188Z" stroke="#0F0F0F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+</div>
+<div class="content" v-bind:style="{ height: showContent ? '630px' : '0', padding: showContent ? '13px 20px' : '0' }">
+<div class="coment" v-for="comentario in comentariosExibidos">
+<img :src="comentario.img" alt="user" />
+<div>
+<span class="name">{{ comentario.nome }}</span>
+<span class="text">{{ comentario.texto }}</span>
+</div>
+</div>
+</div>
+<div class="button" @click="toggleContent">
+{{ showContent ? 'Hide chat' : 'Show chat' }}
+</div>
+</div>
+</aside>
+</main>
+<footer>
+<span>Copyright <span>2024</span> by Secret Tools. All Rights Reserved.</span>
+<p>This site is not part of YouTube.com or Youtube Inc. In Furthermore,
+this site is NOT endorsed by YouTube.com in any way. YOUTUBE is a
+trademark of YOUTUBE, Inc.</p>
+<nav>
+<a href="https://secrets-tool.com/terms-of-use/">Responsability</a> <a href="https://secrets-tool.com/terms-of-use/">Terms</a>
+<a href="https://secrets-tool.com/privacy-policies/">Privacity</a>
+</nav>
+<script type="4a7e431f01c7160ae87168c3-text/javascript">
+//Script para Trackeamento UTMs
+    let prefix = ["https://payment.hotmart.com", "https://pay.hotmart.com"];
+
+function getParams() {
+    let t = "",
+        e = window.top.location.href,
+        r = new URL(e);
+    if (null != r) {
+        let a = r.searchParams.get("utm_source"),
+            n = r.searchParams.get("utm_medium"),
+            o = r.searchParams.get("utm_campaign"),
+            m = r.searchParams.get("utm_term"),
+            c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
+    }
+    return t
+}! function() {
+    var t = new URLSearchParams(window.location.search);
+    t.toString() && document.querySelectorAll("a").forEach(function(e) {
+        for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
+    })
+}();
+</script>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14" type="4a7e431f01c7160ae87168c3-text/javascript"></script>
+<script src="assets/js/main.js" type="4a7e431f01c7160ae87168c3-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4a7e431f01c7160ae87168c3-|49" defer></script></body>
 </html>
